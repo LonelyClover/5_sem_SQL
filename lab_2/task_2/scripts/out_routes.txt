@@ -1,0 +1,61 @@
+
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-0',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Alpha')
+);
+        
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-1',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Beta')
+);
+        
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-2',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Gamma')
+);
+        
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-3',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Delta')
+);
+        
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-4',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Omega')
+);
+        
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-5',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Elizabeth')
+);
+        
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-6',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Anna')
+);
+        
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-7',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Mary')
+);
+        
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-8',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Lucy')
+);
+        
+INSERT INTO routes (route_number, ship_id)
+VALUES (
+    'KAL-VLD-9',
+    (SELECT ship_id FROM ships WHERE ship_name = 'Emily')
+);
+        

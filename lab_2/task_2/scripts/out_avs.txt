@@ -1,0 +1,421 @@
+
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Alpha'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '1'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-11',
+    '2021-08-21',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-11')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Beta'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '2'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-12',
+    '2021-08-22',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-12')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Gamma'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '1'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-13',
+    '2021-08-23',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-13')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Delta'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '2'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-14',
+    '2021-08-24',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-14')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Omega'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '1'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-15',
+    '2021-08-25',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-15')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Elizabeth'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '2'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-16',
+    '2021-08-26',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-16')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Anna'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '1'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-17',
+    '2021-08-27',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-17')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Mary'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '2'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-18',
+    '2021-08-28',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-18')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Lucy'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '1'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-19',
+    '2021-08-29',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-19')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Emily'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '2'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Kaliningrad')
+    ),
+    'Loading',
+    '2021-08-20',
+    '2021-08-30',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-08-20')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Alpha'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-11',
+    '2021-09-21',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-11')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Beta'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-12',
+    '2021-09-22',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-12')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Gamma'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-13',
+    '2021-09-23',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-13')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Delta'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-14',
+    '2021-09-24',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-14')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Omega'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-15',
+    '2021-09-25',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-15')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Elizabeth'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-16',
+    '2021-09-26',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-16')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Anna'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-17',
+    '2021-09-27',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-17')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Mary'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-18',
+    '2021-09-28',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-18')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Lucy'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-19',
+    '2021-09-29',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-19')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Emily'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Murmansk')
+    ),
+    'Refueling',
+    '2021-09-20',
+    '2021-09-30',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-09-20')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Alpha'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '1'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-11',
+    '2021-10-21',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-11')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Beta'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '2'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-12',
+    '2021-10-22',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-12')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Gamma'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '3'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-13',
+    '2021-10-23',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-13')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Delta'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '4'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-14',
+    '2021-10-24',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-14')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Omega'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-15',
+    '2021-10-25',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-15')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Elizabeth'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '1'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-16',
+    '2021-10-26',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-16')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Anna'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '2'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-17',
+    '2021-10-27',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-17')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Mary'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '3'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-18',
+    '2021-10-28',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-18')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Lucy'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '4'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-19',
+    '2021-10-29',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-19')
+);
+            
+INSERT INTO actual_visit (ship_id, berth_id, actual_purpose, actual_arrival_date, actual_departure_date, planned_visit_id)
+VALUES (
+    (SELECT ship_id FROM ship WHERE ship_name = 'Emily'),
+    (SELECT berth_id FROM berth 
+        WHERE
+            berth_number = '5'
+            AND port_id = (SELECT port_id FROM port WHERE port_name = 'Vladivostok')
+    ),
+    'Unloading',
+    '2021-10-20',
+    '2021-10-30',
+    (SELECT planned_visit_id FROM planned_visit WHERE planned_arrival_date = '2021-10-20')
+);
+            

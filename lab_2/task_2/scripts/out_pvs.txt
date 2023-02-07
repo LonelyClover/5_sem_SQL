@@ -1,0 +1,271 @@
+
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-0'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-11',
+    '2021-08-21'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-1'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-12',
+    '2021-08-22'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-2'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-13',
+    '2021-08-23'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-3'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-14',
+    '2021-08-24'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-4'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-15',
+    '2021-08-25'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-5'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-16',
+    '2021-08-26'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-6'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-17',
+    '2021-08-27'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-7'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-18',
+    '2021-08-28'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-8'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-19',
+    '2021-08-29'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-9'),
+    (SELECT port_id FROM ports WHERE port_name = 'Kaliningrad'),
+    'Loading',
+    '2021-08-20',
+    '2021-08-30'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-0'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-11',
+    '2021-09-21'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-1'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-12',
+    '2021-09-22'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-2'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-13',
+    '2021-09-23'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-3'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-14',
+    '2021-09-24'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-4'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-15',
+    '2021-09-25'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-5'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-16',
+    '2021-09-26'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-6'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-17',
+    '2021-09-27'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-7'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-18',
+    '2021-09-28'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-8'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-19',
+    '2021-09-29'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-9'),
+    (SELECT port_id FROM ports WHERE port_name = 'Murmansk'),
+    'Refueling',
+    '2021-09-20',
+    '2021-09-30'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-0'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-11',
+    '2021-10-21'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-1'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-12',
+    '2021-10-22'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-2'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-13',
+    '2021-10-23'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-3'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-14',
+    '2021-10-24'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-4'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-15',
+    '2021-10-25'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-5'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-16',
+    '2021-10-26'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-6'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-17',
+    '2021-10-27'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-7'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-18',
+    '2021-10-28'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-8'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-19',
+    '2021-10-29'
+);
+        
+INSERT INTO planned_visits (planned_route_id, port_id, planned_purpose, planned_arrival_date, planned_departure_date)
+VALUES (
+    (SELECT route_id FROM planned_routes WHERE route_number = 'KAL-VLD-9'),
+    (SELECT port_id FROM ports WHERE port_name = 'Vladivostok'),
+    'Unloading',
+    '2021-10-20',
+    '2021-10-30'
+);
+        

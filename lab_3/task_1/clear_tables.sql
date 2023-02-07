@@ -1,0 +1,3 @@
+DELETE FROM visit;
+DELETE FROM ship;
+DELETE FROM port;
